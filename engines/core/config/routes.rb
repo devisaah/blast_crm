@@ -1,3 +1,4 @@
 Blast::Core::Engine.routes.draw do
-    root to: 'dashboard#index'
+  devise_for :users, class_name: "Blast::User", module: :devise
+  root to: 'dashboard#index'
 end
