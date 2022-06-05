@@ -13,6 +13,11 @@ module Blast
 
     def active(path)
       current_page?(path) ? 'active' : ''
+      
+    end
+
+    def active_admin(path)
+      path.include?('admin') ? 'active' : ''
     end
 
   end

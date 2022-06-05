@@ -35,7 +35,7 @@
                           class: "nav-link" %>
             </li>
             <% if current_user.admin? %>
-              <li class="nav-item <%= active(blast.admin_path) %>">
+              <li class="nav-item <%= active_admin(blast.admin_path) %>">
                 <%= link_to 'Admin', blast.admin_path, class: 'nav-link' %>
               </li>
             <% end %>
