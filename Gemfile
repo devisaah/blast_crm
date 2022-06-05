@@ -54,4 +54,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+gem 'modular_engine', '~> 0.9.5'
+gem 'deface', '~> 1.4.0'
+
 gem 'blast_core', path: './engines/core'
+gem 'blast_contacts', path: './engines/contacts'
