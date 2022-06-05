@@ -1,4 +1,4 @@
-Blast::DashboardController.class_eval do
+Blast::Admin::AdminController.class_eval do
     before_action :set_contacts, only: :index
   
     private
@@ -6,4 +6,5 @@ Blast::DashboardController.class_eval do
       def set_contacts
         @contacts = current_user.contacts.ordered
       end
-end
+  end
+  

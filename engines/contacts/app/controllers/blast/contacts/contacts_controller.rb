@@ -6,7 +6,7 @@ module Blast::Contacts
 
     # GET /contacts
     def index
-      @contacts = current_user.contacts
+      @contacts = current_user.contacts.ordered
     end
 
     # GET /contacts/1
