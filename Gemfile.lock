@@ -5,6 +5,7 @@ PATH
       bootstrap (~> 4.3.1)
       devise (~> 4.6.2)
       jquery-rails (~> 4.3.3)
+      pundit (~> 2.0.1)
       rails (~> 5.2.8)
       sass-rails (~> 5.0)
 
@@ -116,6 +117,8 @@ GEM
     orm_adapter (0.5.0)
     popper_js (1.16.0)
     puma (3.12.6)
+    pundit (2.0.1)
+      activesupport (>= 3.0.0)
     racc (1.6.0)
     rack (2.2.3.1)
     rack-test (1.1.0)
