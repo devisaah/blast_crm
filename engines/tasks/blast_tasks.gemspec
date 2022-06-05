@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 5.2.8"
 
-  s.add_dependency "deface"
+  s.add_dependency "deface", '~> 1.4.0'
 end
