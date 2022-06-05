@@ -25,6 +25,7 @@ module Blast::Contacts
     # POST /contacts
     def create
       @contact = Contact.new(contact_params)
+      @contact.user = current_user
 
       if @contact.save
         redirect_to @contact, notice: 'Contact was successfully created.'
