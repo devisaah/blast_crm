@@ -1,6 +1,6 @@
 module Blast
   module Contacts
-    class ApplicationController < ActionController::Base
+    class ApplicationController <  Blast::ApplicationController
     end
   end
 end
